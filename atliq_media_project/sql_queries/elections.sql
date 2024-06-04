@@ -12,7 +12,7 @@ GROUP BY
 ORDER BY
     voter_turnout_ratio DESC
     ;
-USE atliq_media;
+
 -- Bottom 5 constituencies
 SELECT TOP 5
     pc_name AS constituency
